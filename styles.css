@@ -23,10 +23,20 @@ html {
   padding-bottom: 0.5em;
 }
 
+/* Logo */
+
 .logo {
   font-size: 2rem;
   font-weight: 400;
 }
+
+/* Hidden logo when screen >= 685px */
+
+.secondary {
+  display: none;
+}
+
+/* Navigation bar */
 
 .nav-bar {
   list-style: none;
@@ -38,9 +48,12 @@ html {
 }
 
 .nav-bar li a {
+  font-size: 1rem;
   text-decoration: none;
   color: #000;
 }
+
+/* Shopping cart */
 
 .cart {
   display: flex;
@@ -57,7 +70,9 @@ html {
   width: 40px;
 }
 
-/* Main content */
+
+
+/* Main headline */
 
 .headline {
   margin: 0 3em;
@@ -72,4 +87,161 @@ html {
 
 .headline img {
   width: 100%;
+}
+
+.main-content {
+  margin: 1em 3em 0 3em;
+}
+
+/* Main content */
+
+.main-content h4 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 500;
+  padding: 1em 0;
+}
+
+.img-box-1 {
+  display: flex;
+  margin-top: 4em;
+  justify-content: space-around;
+}
+
+.img-box-1 a {
+  width: 50%;
+  text-align: center;
+}
+
+.img-box-1 a img {
+  width: 90%;
+}
+
+.main-content h6 {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-top: 2em;
+}
+
+.main-content p {
+  font-size: 1rem;
+  padding-top: 0.5em;
+}
+
+.img-box-2 img {
+  width: 100%;
+  padding-top: 3em;
+}
+
+.footer {
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .nav-bar li {
+    padding: 0.1em 0.75em;
+  }
+
+  .nav-bar li a {
+    font-size: 0.75rem;
+  }
+
+  .cart {
+    width: 135px;
+  }
+
+  .cart img {
+    width: 30px;
+  }
+
+  .headline h4 {
+    font-size: 1.1rem;
+  }
+
+  .main-content h4 {
+    font-size: 1.5rem;
+  }
+
+  .main-content h6 {
+    font-size: 1.5rem;
+  }
+
+  .main-content p {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 685px) {
+  .primary {
+    display: none;
+  }
+
+  .secondary {
+    display: flex;
+  }
+
+  .nav-bar li {
+    padding: 0.1em 0.75em;
+  }
+
+  .nav-bar li a {
+    font-size: 0.5rem;
+  }
+
+  .cart {
+    width: 31px;
+  }
+
+  .cart img {
+    width: 20px;
+  }
+
+  .headline h4 {
+    font-size: 0.75rem;
+  }
+
+  .main-content {
+    margin: 1em 2em 0 2em;
+    text-align: center;
+  }
+
+  .main-content h4 {
+    font-size: 1rem;
+  }
+
+  .main-content h6 {
+    font-size: 1rem;
+  }
+
+  .main-content p {
+    font-size: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 485px) {
+  .nav-bar li {
+    padding: 0.1em 0.5em;
+  }
+
+  .header {
+    margin: 0.75em 2em 0 2em;
+  }
+
+  .headline h4 {
+    font-size: 0.6em;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .header {
+    margin: 0.5em 1.5em 0 1.5em;
+  }
+
+  .cart img {
+    width: 15px;
+  }
 }
