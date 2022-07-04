@@ -1,0 +1,75 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Universal styles */
+
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 3.5em;
+  margin: 1em 3em 0 3em;
+  border-bottom: 1px solid #000;
+  padding-bottom: 0.5em;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.nav-bar {
+  list-style: none;
+  display: flex;
+}
+
+.nav-bar li {
+  padding: 0.1em 1em;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.cart {
+  display: flex;
+  justify-content: flex-end;
+  width: 185px;
+}
+
+.cart a {
+  text-decoration: none;
+  color: #000;
+}
+
+.cart img {
+  width: 40px;
+}
+
+/* Main content */
+
+.headline {
+  margin: 0 3em;
+  text-align: center;
+}
+
+.headline h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 2em;
+}
+
+.headline img {
+  width: 100%;
+}
