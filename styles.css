@@ -53,6 +53,15 @@ html {
   color: #000;
 }
 
+.nav-bar li a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.4em;
+}
+
+.active {
+  font-weight: 600;
+}
+
 /* Shopping cart */
 
 .cart {
@@ -69,8 +78,6 @@ html {
 .cart img {
   width: 40px;
 }
-
-
 
 /* Main headline */
 
@@ -133,8 +140,77 @@ html {
   padding-top: 3em;
 }
 
-.footer {
+/* Desktops page */
 
+.desktops-main-content {
+  
+  margin: 3em;
+}
+
+.product-row {
+  display: flex;
+}
+
+.product-box {
+  width: 20em;
+  height: 20em;
+  border: 1px solid #000;
+  border-radius: 0.2em;
+  transition: 0.2s;
+}
+
+.product-box:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 10px #999;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  margin: 3em;
+  border-top: 1px solid #000;
+}
+
+.footer-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.1em;
+  justify-content: space-between;
+}
+
+.footer-box h6 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding-bottom: 0.5em;
+}
+
+.footer-box a {
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 0.7em 0 0.1em 0;
+  color: #000;
+}
+
+.social-links img {
+  width: 34px;
+  padding-right: 1em;
+}
+
+.social-box {
+  justify-content: space-between;
+}
+
+.footer-box p {
+  
+}
+
+.footer-box a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
 }
 
 @media only screen and (max-width: 1000px) {
