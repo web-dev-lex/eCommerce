@@ -215,6 +215,12 @@ td {
   padding: 0.5em 2em;
   border-radius: 2em;
   background-color: #fff;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #000;
 }
 
 
