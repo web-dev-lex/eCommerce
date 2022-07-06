@@ -143,26 +143,87 @@ html {
 /* Desktops page */
 
 .desktops-main-content {
-  
   margin: 3em;
 }
 
+
+
 .product-row {
   display: flex;
+  box-shadow: 0 0 0 1px #E1E1E1;
+  margin-bottom: 1em;
+  padding: 1em;
 }
 
-.product-box {
+.product-row:hover {
+  box-shadow: 0 0 0 1px #000;
+}
+
+.product-row img {
   width: 20em;
-  height: 20em;
-  border: 1px solid #000;
-  border-radius: 0.2em;
-  transition: 0.2s;
+  height: 17em;
 }
 
-.product-box:hover {
-  transform: scale(1.01);
-  box-shadow: 0 0 10px #999;
+.product-info {
+  padding: 1em 0 0 3em;
 }
+
+
+
+.product-info h4 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.product-stats {
+  display: flex;
+  padding: 3em 0 0 0;
+}
+
+.product-stats h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.product-stats h6 {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 0.3em;
+}
+
+table {
+  padding-left: 8em;
+}
+
+th {
+  padding-left: 2em;
+  color: #A09F9F;
+  font-weight: 500;
+}
+
+td {
+  font-weight: 600;
+  padding-left: 2em;
+}
+
+.btn {
+  margin-top: 3em;
+  font-size: 1rem;
+  padding: 0.5em 2em;
+  border-radius: 2em;
+  background-color: #fff;
+}
+
+
+
+
+
+
+
+
 
 /* Footer */
 
