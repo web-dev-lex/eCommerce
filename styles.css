@@ -140,13 +140,11 @@ html {
   padding-top: 3em;
 }
 
-/* Desktops page */
+/* Desktops, laptops and tablets page */
 
 .desktops-main-content {
   margin: 3em;
 }
-
-
 
 .product-row {
   display: flex;
@@ -167,8 +165,6 @@ html {
 .product-info {
   padding: 1em 0 0 3em;
 }
-
-
 
 .product-info h4 {
   font-size: 2rem;
@@ -199,12 +195,14 @@ table {
 }
 
 th {
+  font-size: 1rem;
   padding-left: 2em;
   color: #A09F9F;
   font-weight: 500;
 }
 
 td {
+  font-size: 1rem;
   font-weight: 600;
   padding-left: 2em;
 }
@@ -271,10 +269,6 @@ td {
   justify-content: space-between;
 }
 
-.footer-box p {
-  
-}
-
 .footer-box a:hover {
   text-decoration: underline;
   text-underline-offset: 0.3em;
@@ -315,6 +309,79 @@ td {
 
   .main-content p {
     font-size: 0.75rem;
+  }
+
+  .product-row img {
+    width: 15em;
+    height: 12em;
+  }
+
+  .product-info h4 {
+    font-size: 1.5rem;
+  }
+
+  .product-stats h3 {
+    font-size: 1.5rem;
+  }
+
+  .product-stats h6 {
+    font-size: 0.75rem;
+  }
+
+  table {
+    padding-left: 4em;
+  }
+
+  th {
+    font-size: 0.75rem;
+  }
+
+  td {
+    font-size: 0.75rem;
+  }
+
+  .btn {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .product-row img {
+    width: 10em;
+    height: 7em;
+  }
+
+  .product-info h4 {
+    font-size: 1rem;
+  }
+
+  .product-stats h3 {
+    font-size: 1rem;
+  }
+
+  .product-stats h6 {
+    font-size: 0.5rem;
+  }
+
+  table {
+    padding-left: 2em;
+  }
+
+  th {
+    font-size: 0.5rem;
+  }
+
+  td {
+    font-size: 0.5rem;
+  }
+
+  .btn {
+    font-size: 0.5rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
   }
 }
 
@@ -361,6 +428,39 @@ td {
   }
 
   .main-content p {
+    font-size: 0.5rem;
+  }
+
+  .product-row img {
+    width: 6em;
+    
+  }
+
+  .product-info h4 {
+    font-size: 0.5rem;
+  }
+
+  .product-stats h3 {
+    font-size: 1rem;
+  }
+
+  .product-stats h6 {
+    font-size: 0.5rem;
+  }
+
+  table {
+    display: none;
+  }
+
+  th {
+    font-size: 0.5rem;
+  }
+
+  td {
+    font-size: 0.5rem;
+  }
+
+  .btn {
     font-size: 0.5rem;
   }
 }
