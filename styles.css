@@ -68,6 +68,19 @@ html {
   display: flex;
   justify-content: flex-end;
   width: 185px;
+  align-items: flex-end;
+}
+
+.cart-counter {
+  font-size: 1rem;
+  width: 1.5em;
+  height: 1.5em;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 0.5em;
 }
 
 .cart a {
@@ -219,6 +232,22 @@ td {
 .btn:hover {
   color: #fff;
   background-color: #000;
+}
+
+/* Carts page */
+
+.cart-list {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  margin: 5em 3em;
+  justify-content: center;
+}
+
+.img {
+  width: 300px;
 }
 
 
